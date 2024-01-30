@@ -25,4 +25,4 @@ jobs:
         context: .
         file: Dockerfile
         push: true
-        tags: ahorgnies/tailwindcss
+        tags: ahorgnies/tailwindcss:${{ github.sha }}
