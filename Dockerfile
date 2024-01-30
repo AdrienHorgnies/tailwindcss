@@ -1,4 +1,4 @@
-FROM docker.io/node:21-alpine3.18
+FROM docker.io/node:21
 
 WORKDIR /home/node
 USER node
